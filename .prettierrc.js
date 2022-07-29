@@ -1,4 +1,4 @@
-{
+module.exports = {
   "useTabs": false,
   "singleQuote": true,
   "semi": true,
