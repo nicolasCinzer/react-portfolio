@@ -4,8 +4,10 @@ import CV from '../../assets/cv.pdf';
 const Buttons = () => {
   return (
     <div className='buttons'>
-      <a href={CV} download>Download CV</a>
-      <a href='#contact'>Reach me out!</a>
+      <a href={CV} className='btn' download>
+        Download CV
+      </a>
+      <a href='#contact' className='btn btn-primary'>Reach me out!</a>
     </div>
   );
 };
