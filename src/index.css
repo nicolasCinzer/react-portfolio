@@ -62,12 +62,13 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
-section > h2, 
+section > h2,
 section > h5 {
   color: var(--color-light);
-  text-align: center;  
+  text-align: center;
 }
 
 section > h2 {
@@ -81,14 +82,14 @@ section > h2 {
 
 a {
   color: var(--color-primary);
-  transition: var( --transition);
+  transition: var(--transition);
 }
 
 a:hover {
   color: var(--color-white);
 }
 
-.btn{ 
+.btn {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
@@ -128,12 +129,14 @@ img {
   }
 }
 
+/* =========== Media Queries (Small Devices) =========== */
+
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-ms);
   }
-  
-  section > h2{
+
+  section > h2 {
     margin-bottom: 2rem;
   }
 }
